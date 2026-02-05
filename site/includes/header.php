@@ -23,7 +23,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
             <form method="post" action="logout.php" style="display:inline;">
                 <button type="submit" class="logout-btn">Logout</button>
-                <a href="wishlist.php">Add Events</a>
+                <a href="add_events.php">Add Events</a>
             </form>
         <?php else: ?>
             <a href="login.php">Admin Log In</a>
@@ -32,6 +32,6 @@ if (session_status() === PHP_SESSION_NONE) {
 </header>
 
 <nav>
-    <a href="display_products.php">View List of Events</a>
-    <a href="display_products.php">About us</a>
+    <a href="view_events.php">View List of Events</a>
+    <a href="about_us.php">About us</a>
 </nav>
